@@ -25,6 +25,11 @@ Follow these simple steps to make the most out of the Weather React Web App:
 
 5. Forecast:
    - The app provides a forecast for the next five hours as well as the next five days.
+     
+6. Use Geolocation:
+   - To get weather information for your current location, click the location icon.
+   - If prompted, allow the website to access your location when prompted by your browser.
+   - You will receive weather details, including temperature, weather mood, humidity, lowest temperature, highest temperature, and wind speed for your current location.
 
 ## Getting Started Locally
 
@@ -51,8 +56,4 @@ The Present Repo has pre build folder - delete and re-build new one after making
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
