@@ -4,13 +4,13 @@ This project is a dynamic weather application built using modern web technologie
 
 ## Live Demo
 
-Explore the live demo of this project, publicly hosted on Netlify: [Weather React Web App](https://deekshith-weather-react-webapp.netlify.app/)
+Explore the live demo of this project, publicly hosted on Netlify: [Weather React Web App](https://deekshith-weather-react-webapp.netlify.app/){:target="_blank"}
 
 ## How to Use the Weather App
 
 Follow these simple steps to make the most out of the Weather React Web App:
 
-1. Open the [Weather React Web App](https://deekshith-weather-react-webapp.netlify.app/) link in your web browser (optimized for desktop).
+1. Open the [Weather React Web App](https://deekshith-weather-react-webapp.netlify.app/){:target="_blank"} link in your web browser (optimized for desktop).
 
 2. Choose a City:
    - Select a city from the provided top city list.
