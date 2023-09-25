@@ -42,6 +42,7 @@ To run this project locally, follow these steps:
    npm install
 
 
+
 ### `npm start`
 
 Runs the app in the development mode.\
