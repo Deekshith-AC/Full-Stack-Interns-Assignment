@@ -1,45 +1,68 @@
-# Weather React Web App
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather React Web App</title>
+</head>
+<body>
+    <h1># Weather React Web App</h1>
 
-This project is a dynamic weather application built using modern web technologies such as TailwindCSS, React, Node.js, HTML5, CSS3, and JavaScript (ES6).
+    <p>This project is a dynamic weather application built using modern web technologies such as TailwindCSS, React, Node.js, HTML5, CSS3, and JavaScript (ES6).</p>
 
-## Live Demo
+    <h2>Live Demo</h2>
 
-Explore the live demo of this project, publicly hosted on Netlify: [Weather React Web App](https://deekshith-weather-react-webapp.netlify.app/){:target="_blank"}
+    <p>Explore the live demo of this project, publicly hosted on Netlify:</p>
+    <a href="https://deekshith-weather-react-webapp.netlify.app/" target="_blank">Weather React Web App</a>
 
-## How to Use the Weather App
+    <h2>How to Use the Weather App</h2>
 
-Follow these simple steps to make the most out of the Weather React Web App:
+    <p>Follow these simple steps to make the most out of the Weather React Web App:</p>
 
-1. Open the [Weather React Web App](https://deekshith-weather-react-webapp.netlify.app/){:target="_blank"} link in your web browser (optimized for desktop).
+    <ol>
+        <li>Open the <a href="https://deekshith-weather-react-webapp.netlify.app/" target="_blank">Weather React Web App</a> link in your web browser (optimized for desktop).</li>
+        <li>Choose a City:
+            <ul>
+                <li>Select a city from the provided top city list.</li>
+                <li>Alternatively, type the name of the city you want to check the weather for.</li>
+            </ul>
+        </li>
+        <li>Get Weather Data:
+            <ul>
+                <li>After selecting or typing a city, click the "Search" button or the location icon.</li>
+            </ul>
+        </li>
+        <li>View Weather Information:
+            <ul>
+                <li>The app will fetch and display detailed weather data for the selected city.</li>
+                <li>You can view the temperature in both Fahrenheit and Celsius by clicking on the respective icons.</li>
+            </ul>
+        </li>
+        <li>Forecast:
+            <ul>
+                <li>The app provides a forecast for the next five hours as well as the next five days.</li>
+            </ul>
+        </li>
+        <li>Use Geolocation:
+            <ul>
+                <li>To get weather information for your current location, click the location icon.</li>
+                <li>If prompted, allow the website to access your location when prompted by your browser.</li>
+                <li>You will receive weather details, including temperature, weather mood, humidity, lowest temperature, highest temperature, and wind speed for your current location.</li>
+            </ul>
+        </li>
+    </ol>
 
-2. Choose a City:
-   - Select a city from the provided top city list.
-   - Alternatively, type the name of the city you want to check the weather for.
+    <h2>Getting Started Locally</h2>
 
-3. Get Weather Data:
-   - After selecting or typing a city, click the "Search" button or the location icon.
+    <p>To run this project locally, follow these steps:</p>
 
-4. View Weather Information:
-   - The app will fetch and display detailed weather data for the selected city.
-   - You can view the temperature in both Fahrenheit and Celsius by clicking on the respective icons.
-
-5. Forecast:
-   - The app provides a forecast for the next five hours as well as the next five days.
-     
-6. Use Geolocation:
-   - To get weather information for your current location, click the location icon.
-   - If prompted, allow the website to access your location when prompted by your browser.
-   - You will receive weather details, including temperature, weather mood, humidity, lowest temperature, highest temperature, and wind speed for your current location.
-
-## Getting Started Locally
-
-To run this project locally, follow these steps:
-
-1. Clone this repository to your local machine.
-
-2. Install Dependencies:
-   ```bash
-   npm install
+    <ol>
+        <li>Clone this repository to your local machine.</li>
+        <li>Install Dependencies:
+            <pre>npm install</pre>
+        </li>
+    </ol>
+</body>
+</html>
 
 
 
