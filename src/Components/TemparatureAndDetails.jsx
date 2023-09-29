@@ -7,7 +7,7 @@ function TemparatureAndDetails({weather: {details, temp, temp_min, temp_max, sun
     <div>
         
         <p className='flex items-center justify-center py-2 text-xl text-cyan-300'>{details}</p>
-        <div className="flex items-center justify-between text-white ">
+        <div className="flex flex-col space-y-6 md:space-y-0  md:flex-row items-center justify-between text-white ">
             <svg className='h-20' xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 120 120" id="weather">
             <defs>
                 <linearGradient id="a" x1="60" x2="60" y1="-725.988" y2="-845.988" gradientTransform="matrix(1 0 0 -1 0 -725.988)" gradientUnits="userSpaceOnUse">
@@ -48,7 +48,7 @@ function TemparatureAndDetails({weather: {details, temp, temp_min, temp_max, sun
             </div>
         </div>
 
-        <div className="flex flex-row items-center justify-center space-x-1 text-white text-sm py-1">
+        <div className="flex flex-row items-center justify-center space-x-1 text-white text-sm py-1 mt-6">
             <UilSun/>
             <p className="font-medium">
                 Rise: <span className="ml-0.5 font-medium">{formatToLocalTime(sunrise, timezone, "hh:mm a")}</span>

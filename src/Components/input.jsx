@@ -38,16 +38,16 @@ function Inputs({setQuery, units, setUnits}) {
 
   return (
 
-    <div className='flex flex-row justify-center'>
-        <div className='flex flex-row items-center justify-center space-x-4'>
+    <div className='flex flex-wrap items-center md:flex-nowrap justify-center'>
+        <div className='flex flex-grow-1 items-center justify-center space-x-4 space-y-4 md:space-y-0'>
             <input 
             value={city}
             onChange={(e) => setCity(e.currentTarget.value)}
             type='text' placeholder='Search for city...' className='text-xl font-light p-1 w-full shadow-xl px-8 capitalize focus:outline-none placeholder:lowercase'></input>
-            <button onClick={handleSearchClick} className="text-white cursor-pointer transition ease-out hover:scale-125">
+            <button onClick={handleSearchClick} className="text-white pb-2 cursor-pointer transition ease-out hover:scale-125">
               <UilSearchAlt size={35} />
             </button>
-            <button onClick={handleLocationClick} className="text-white cursor-pointer transition ease-out hover:scale-125">
+            <button onClick={handleLocationClick} className="text-white pb-2 cursor-pointer transition ease-out hover:scale-125">
             <UilMapMarker size={35} />
             </button>
         </div>

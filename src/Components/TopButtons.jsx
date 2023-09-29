@@ -10,10 +10,10 @@ function TopButtons({ setQuery }) {
     { id:5, title: 'Delhi'}
   ]
   return (
-    <div className='flex items-center justify-around my-2'>
+    <div className='flex justify-around flex-wrap items-center my-2'>
       {cities.map((city) => (
         <button key = {city.id}
-         className=' text-white text-lg font-medium mt-2'
+         className=' text-white hidden md:block flex-grow-1 text-lg font-medium mt-2'
          onClick={() => setQuery({q: city.title})}
          >
           {city.title}
