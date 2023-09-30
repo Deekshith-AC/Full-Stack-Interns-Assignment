@@ -3,6 +3,7 @@ import {UilArrowUp, UilArrowDown, UilTemperature, UilTear, UilWind, UilSun, UilS
 import { formatToLocalTime, iconUrlFromCode } from '../Services/WeatherService';
 
 function TemparatureAndDetails({weather: {details, temp, temp_min, temp_max, sunrise, sunset, speed, humidity, feels_like, timezone}}) {
+    //This is a comment
     return (
     <div>
         
